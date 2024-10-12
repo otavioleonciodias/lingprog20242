@@ -1,27 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main() {
-    int x = 0; //criando uma variável inteira
-    printf("Valor de x: %d\n",x);
-    x++; //incrementando x em 1 unidade
-    printf("Valor de x: %d\n",x);
-    float y = 12.345678; //criando uma variárel Real
-    printf("Valor de y: %f\n",y);
-    //Imprimindo o valor de y com apenas 2 casas
-    printf("Valor de y: %.2f\n",y);
-    //1 Caractere deve estar entre apóstrofo
-    char sexo = 'M'; //variável que aceita 1 caractere
-    printf("Sexo: %c\n", sexo);
-    //Criando uma variável String (Texto)
-    char nome[30] = "Joao";
-    printf("Nome: %s\n", nome);
-    //Imprimindo a primeira letra do nome
-    printf("Primeira Letra: %c\n", nome[0]);
-    printf("\nDigite o valor de x: ");
-    scanf("%d", &x);
-    printf("O valor digitado foi %d\n", x);
-}
 /*
 Exercícios sobre os comandos básicos em C
 */
@@ -32,15 +11,31 @@ void q1() {
 }
 
 //2. Faça um programa que imprima o produto dos valores 30 e 27.
-void q2(){
-printf("30*27 = %d, 30*27");
+void q2() {
+    printf("30*27 = %d", 30*27);
 }
+
 //3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
-
+void q3() {
+    float media = (5+8+12)/3.0;
+    printf ("Média de 5,8,12 é igual a %.1f\n", media);
+}
 //4. Faça um programa que leia e imprima um número inteiro.
-
+void q4() {
+    int num = 0;
+    printf("Digite um numero: ");
+    scanf("%d",&num);
+    printf("Numero digitado: %d", num);
+}
 //5. Faça um programa que leia dois números reais e os imprima.
-
+void q5(){
+    float n, n2
+    printf("Escreva primeiro numero : ");
+    scanf ("%f",&n)
+    printf("Escreva segundo numero : ");
+    scanf("%f",&n2);
+    printf
+}
 //6. Faça um programa que leia um número inteiro e imprima o seu
 //   antecessor e o seu sucessor.
 
@@ -111,6 +106,6 @@ printf("30*27 = %d, 30*27");
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q2();
+    q3();
     return EXIT_SUCCESS;
 }
