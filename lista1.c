@@ -34,10 +34,16 @@ void q5(){
     scanf ("%f",&n)
     printf("Escreva segundo numero : ");
     scanf("%f",&n2);
-    printf
+    printf("Nº reais: %f %f", n, n2);
 }
 //6. Faça um programa que leia um número inteiro e imprima o seu
 //   antecessor e o seu sucessor.
+void q6(){
+float n;
+printf("Digite um número: ");
+scanf("%f",&n);
+printf("Antecessor: %f e Sucessor: %f", n-1, n+1);
+}
 
 //7. Faça um programa que leia o nome o endereço e o telefone de
 //   um cliente e ao final, imprima esses dados.
@@ -106,6 +112,6 @@ void q5(){
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q3();
+    q5();
     return EXIT_SUCCESS;
 }
