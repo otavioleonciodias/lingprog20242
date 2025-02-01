@@ -29,9 +29,9 @@ void q4() {
 }
 //5. Faça um programa que leia dois números reais e os imprima.
 void q5(){
-    float n, n2
+    float n, n2;
     printf("Escreva primeiro numero : ");
-    scanf ("%f",&n)
+    scanf ("%f",&n);
     printf("Escreva segundo numero : ");
     scanf("%f",&n2);
     printf("Nº reais: %f %f", n, n2);
@@ -112,6 +112,6 @@ printf("Antecessor: %f e Sucessor: %f", n-1, n+1);
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q5();
+    q1();
     return EXIT_SUCCESS;
 }
